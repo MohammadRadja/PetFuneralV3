@@ -1397,18 +1397,29 @@ section {
   max-width: 400px;
 }
 .btn.btn-back-to-top {
-  color: #ffd100;
-  background-color: #192840;
-  font-size: 14px;
-  line-height: 34px;
-  padding: 7px 27px;
-  border-bottom: 2px solid #ffd100;
-  border-radius: 0;
+    position: fixed; /* Posisi tetap di layar */
+    bottom: 20px;    /* Jarak dari bagian bawah halaman */
+    right: 20px;     /* Jarak dari sisi kanan halaman */
+    background-color: #25D366; /* Warna latar belakang tombol */
+    color: white;    /* Warna ikon */
+    border-radius: 50%; /* Bentuk tombol bulat */
+    width: 50px;     /* Lebar tombol */
+    height: 50px;    /* Tinggi tombol */
+    display: flex;   /* Menggunakan flexbox untuk pusatkan ikon */
+    align-items: center; /* Pusatkan secara vertikal */
+    justify-content: center; /* Pusatkan secara horizontal */
+    text-align: center; /* Pusatkan teks */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* Tambahkan bayangan jika perlu */
+    font-size: 24px; /* Ukuran ikon */
+    z-index: 1000;   /* Pastikan tombol berada di atas elemen lain */
+    transition: background-color 0.3s; /* Transisi saat hover */
+}
+.btn.btn-back-to-top:hover {
+  background-color: #25D366;
+  text-decoration: none;
 }
 .btn-back-to-top i {
-  margin-left: 9px;
-  font-size: 20px;
-  line-height: 34px;
+  margin: 0;
 }
 .footer-bottom {
   background-color: #03132b;
