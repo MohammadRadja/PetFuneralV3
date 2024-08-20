@@ -623,19 +623,6 @@
       useTransform: false,
     });
   }
-
-  if ($("#back-to-top").length) {
-    $("#back-to-top").on("click", function (e) {
-      e.preventDefault();
-      $("html,body").animate(
-        {
-          scrollTop: 0,
-        },
-        700
-      );
-    });
-  }
-
   //Popup Video
   var $video_play = $(".video-player a");
   if ($video_play.length > 0) {

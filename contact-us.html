@@ -13,6 +13,7 @@
 	<link rel="stylesheet" id="ionicon-font-css" href="css/ionicon.css" type="text/css" media="all">
 	<link rel="stylesheet" id="industris-style-css" href="style.css" type="text/css" media="all">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<link rel="shortcut icon" href="assets/Logo/Logo.webp">
 </head>
 
@@ -156,57 +157,35 @@
 			        </div>
 			    </div>
 			</div>
-
-			<section>
+			<section class="bg-contact-info py-5">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<h3>View map:</h3>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.864128592446!2d106.53166457453376!3d-6.4114969627029055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e420b09de77fcd7%3A0xeb19c3e263b69667!2sBeloved%20Pet%20Funeral!5e0!3m2!1sid!2sid!4v1724061594393!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<div class="col-md-6 col-sm-12 mb-4 contact-info">
+							<h2 class="title-contact mb-4">CONTACT INFO</h2>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.864128592446!2d106.53166457453376!3d-6.4114969627029055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e420b09de77fcd7%3A0xeb19c3e263b69667!2sBeloved%20Pet%20Funeral!5e0!3m2!1sid!2sid!4v1724061594393!5m2!1sid!2sid"
+								width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+							</iframe>
+						</div>
+						<div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center social-icons">
+							<h2 class="title-contact mb-4">FOLLOW US</h2>
+							<a target="_blank" href="https://www.instagram.com/belovedpetfuneral/" rel="noopener noreferrer" class="social-icon">
+								<i class="icon ion-logo-instagram"></i> <span>@belovedpetfuneral</span>
+							</a>
+							<a target="_blank" href="https://wa.me/6281998875344" rel="noopener noreferrer" class="social-icon">
+								<i class="icon ion-logo-whatsapp"></i> <span>+62 819-9887-5344</span>
+							</a>
+							<a target="_blank" href="https://www.tiktok.com/@belovedpetfuneral" rel="noopener noreferrer" class="social-icon">
+								<i class="fab fa-tiktok"></i> <span>@belovedpetfuneral</span>
+							</a>
+							<a target="_blank" href="https://www.youtube.com/@BelovedPetFuneral" rel="noopener noreferrer" class="social-icon">
+								<i class="icon ion-logo-youtube"></i> <span>@BelovedPetFuneral</span>
+							</a>
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<section class="bg-contact-info">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-12">
-							<h4 class="text-primary">CONTACT INFO</h4>
-							<div class="contact-info">
-								<h2>Hotline : <span class="text-primary">+84 1900 8198</span> </h2>
-								<p><i class="icon ion-md-mail"></i> Info.industris@gmail.com</p>
-								<p><i class="icon ion-md-pin"></i> Crows Nest Apt 69 Sydney, Australia (<a href="#" class="text-primary">View map</a>)</p>
-							</div>
-							<div class="space-industris" style="height: 40px;"></div>
-							<hr>
-						</div>
-						<div class="col-md-12">
-							<form class="form-contact" action="contact.php" method="post">
-								<h3>Contact form</h3>
-								<div class="row">
-									<div class="col-md-4 form-group">
-										<input type="text" name="your_name" id="your-name" class="form-control" placeholder="Your name" required>
-									</div>
-									<div class="col-md-4 form-group">
-										<input type="number" name="phone_number" id="phone-number" class="form-control" placeholder="Phone number" required>
-									</div>
-									<div class="col-md-4 form-group">
-										<input type="email" name="your_email" id="your-email" class="form-control" placeholder="Email Address" required>
-									</div>
-									<div class="col-md-12 form-group">
-										<textarea type="text" rows="6" name="your_message" id="your-message" class="form-control" placeholder="your message" required></textarea>
-									</div>
-									<div class="col-md-12">
-										<input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn btn-primary">
-										<input type="submit" value="Subcribe" class="wpcf7-form-control wpcf7-submit btn btn-border">
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-			    </div>
-			</section>
+			
 			
 		<!-- Main Footer  -->
 	    <footer id="site-footer" class="site-footer">
@@ -236,14 +215,12 @@
 						class="widget_text widget widget_custom_html padding-left"
 					  >
 						<div class="textwidget custom-html-widget">
-						  <h3 class="text-white">Our Services</h3>
+						  <h3 class="title">Our Services</h3>
 						  <ul>
-							<li><a href="services.html">~~</a></li>
-							<li><a href="services.html">~</a></li>
-							<li><a href="services.html">~</a></li>
-							<li><a href="services.html">~</a></li>
-							<li><a href="services.html">~</a></li>
-							<li><a href="services.html">~</a></li>
+							<li><a href="services.html"><i class="fas fa-chevron-right"></i> Driver Jemputan</a></li>
+							<li><a href="services.html"><i class="fas fa-chevron-right"></i> Pelayanan Jenazah</a></li>
+							<li><a href="services.html"><i class="fas fa-chevron-right"></i> Blok Terpisah</a></li>
+							<li><a href="services.html"><i class="fas fa-chevron-right"></i> Paket Layanan</a></li>
 						  </ul>
 						</div>
 					  </div>
@@ -258,60 +235,36 @@
 						class="widget_text widge widget-footer widget_custom_html padding-left"
 					  >
 						<div class="textwidget custom-html-widget">
-						  <h3 class="text-white">Quick Links</h3>
+						  <h3 class="title">Quick Links</h3>
 						  <ul>
-							<li><a href="index.html">About us</a></li>
-							<li><a href="about.html">Services</a></li>
-							<li><a href="services.html">Gallery</a></li>
-							<li><a href="services.html">Pricing</a></li>
-							<li><a href="blog.html">Contact Us</a></li>
+							<li><a href="index.html"><i class="fas fa-chevron-right"></i> About us</a></li>
+							<li><a href="about.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+							<li><a href="services.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+							<li><a href="services.html"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+							<li><a href="blog.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
 						  </ul>
 						</div>
 					  </div>
 					</div>
 				  </div>
-				  <!-- end col-lg-3 -->
-	
-				  <div class="col-md-3 col-sm-6">
-					<div class="widget-footer">
-					  <div class="footer-social ot-socials bg-white">
-						follow us:
-						<a target="_blank" href="#" rel="noopener noreferrer"
-						  ><i class="icon ion-logo-facebook"></i
-						></a>
-						<a target="_blank" href="#" rel="noopener noreferrer"
-						  ><i class="icon ion-logo-instagram"></i
-						></a>
-						<a target="_blank" href="#" rel="noopener noreferrer"
-						  ><i class="icon ion-logo-skype"></i
-						></a>
-						<a target="_blank" href="#" rel="noopener noreferrer"
-						  ><i class="icon ion-logo-twitter"></i
-						></a>
-						<a target="_blank" href="#" rel="noopener noreferrer"
-						  ><i class="icon ion-logo-youtube"></i
-						></a>
-					  </div>
-					</div>
 				  </div>
 				</div>
 			  </div>
 			</div>
 			<div class="footer-bottom">
-			  <div class="container-custom">
-				<div class="row">
-				  <div class="col-md-12">
-					<a
-					  id="back-to-top"
-					  href="#"
-					  class="btn btn-back-to-top pull-right"
-					  >Whatsapp<i class="icon ion-ios-arrow-dropup-circle"></i
-					></a>
+				<div class="container-custom">
+				  <div class="row">
+					<div class="col-md-12">
+					  <a
+						href="https://wa.me/6281998875344"
+						class="btn btn-whatsapp"
+						><i class="fab fa-whatsapp"></i
+					  ></a>
+					</div>
 				  </div>
 				</div>
 			  </div>
-			</div>
-		  </footer>
+			</footer>
 
 	<script src='js/jquery.min.js'></script>
 	<script src='js/slick.min.js'></script>
