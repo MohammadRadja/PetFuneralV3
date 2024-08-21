@@ -2574,6 +2574,35 @@ div:last-child >.process .process-icon:after {
   color: #239c08;
 }
 /*--------------------------------------------------------------
+## Denah
+--------------------------------------------------------------*/
+.cemetery-layout {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.cemetery-layout h4 {
+  font-size: 24px;
+  color: #3F417E;
+  margin-bottom: 10px;
+}
+
+.cemetery-layout h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cemetery-layout p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cemetery-layout img {
+  max-width: 100%;
+  height: auto;
+}
+/*--------------------------------------------------------------
 ## Pricing
 --------------------------------------------------------------*/
 .pricing-grid {
@@ -2781,6 +2810,9 @@ div:last-child >.process .process-icon:after {
   }
   .hero-content h4 {
       font-size: 1.25rem;
+  }
+  .btn-primary{
+    color: white;
   }
 }
 @media (max-width: 576px) {
@@ -3609,7 +3641,7 @@ div:last-child >.process .process-icon:after {
     background-color: #fff;
   }
   .logo-brand-mobile {
-    max-width: 200px;
+    max-width: 100px;
   }
   .mobile-nav {
     display: none;
