@@ -2919,8 +2919,9 @@ div:last-child >.process .process-icon:after {
   display: inline-block;
 }
 .home-video a i {
-  font-size: 20px; 
-  margin-left: 4px; 
+  margin-top: 25px;
+  margin-right: 5px;
+  font-size: 30px; 
   color: #239c08;
 }
 .video-section-right-2 .video-play {
